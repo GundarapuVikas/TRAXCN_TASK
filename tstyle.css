@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Calibri', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none; border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition: .2s linear;
+}
+
+.header{
+    background-image: linear-gradient(RGB(12, 38, 79),RGB(15, 29, 51));
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    padding:1.6rem 40px;
+    border-bottom:black;
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin:0 3.7rem;
+    font-size:1.2rem;
+    color:#fff;
+}
+
+.header .navbar a i{
+  margin-left:5px;
+}
+.body_cont{
+  margin-top:-20px;
+}
+.Name p{
+    margin-top:1.4rem;
+    text-align:center;
+    font-weight: 900;
+    font-size: 1.44rem;
+}
+.Name #company{
+  display:flex;
+  flex-direction: row;
+  width:40%;
+  margin-left:30rem;
+  margin-top:8rem;
+  padding:10px;
+}
+.Name #company img{
+  width:10%;
+  height:auto;
+  margin-top:-10px;
+  margin-right:0px;
+  margin-left:140px;
+  background-size: cover;;
+}
+.Name #company h1{
+    width:50%;
+    font-family: 'Castellar', sans-serif;
+    font-weight:bolder;
+    text-align:center;  
+    text-align:left;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 350px;
+  }
+  
+  .left {
+    width: 55%;
+  }
+  
+  .right {
+    width: 45%;
+  }
+.row{
+    background-color:RGB(12, 38, 79) ;
+    margin-top:0.4rem;
+    margin-left:4.5rem;
+    margin-right:4.5rem;
+    border:3px solid black;
+    box-shadow: 2px 5px 2px 2px darkgrey;
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  label{
+      color:white;
+  }
+  #submit{
+      margin-top:2.5rem;
+      margin-left:45rem;
+      text-align: center;
+      font-weight: bolder;
+      font-size:medium;
+      border:2px solid black;
+      color: white;
+      background-color: RGB(12, 38, 79);
+      border-radius:10px;
+      padding:8px 30px;
+	  box-shadow: 2px 5px 2px -2px darkgrey;
+	  
+      
+  }
+  .foot{
+	  margin-top:2.3rem;
+  }
+  #ii{
+	  margin-top:0px;
+	  
+  }
+  #note{
+	  margin-top:10px;
+  }
+  .left label{
+    display: block;
+    margin-top:1.5rem;
+  }
+  .right label{
+    display: block;
+    margin-top:1.5rem;
+    margin-left:0rem;
+  }
+  .left label > span{
+    width: 170px;
+    font-weight: bold;
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+    margin-left:20px;
+  }
+  
+  .right label > span{
+    width: 270px;
+    font-weight: bold;
+    float: left;
+    padding-top: 10px;
+    padding-right: 0px;
+  }
+  .ip{
+    width:300px;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-left:5px;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  .right .ip{
+    width:300px;
+    padding:10px 20px;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  label{
+    padding:8px;
+  }
+  select{
+    width:65px;
+    padding:10px 5px 10px 8px;
+    margin-left:4px;
+    margin-right:5px;
+    border-radius:5px;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  .ip2{
+    width:230px;
+    padding:10px 20px;
+    border-radius:5px;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  
+  #rb{
+    margin:0px 0px 0px 2px;
+    width:150px;
+    padding:10px 0px;
+    border-radius:5px;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  #rb3{
+    margin:0px 0px 0px 2px;
+    width:150px;
+    padding:10px 0px;
+    border-radius:5px;
+    background-color: gold;
+    box-shadow: 2px 5px 2px -2px darkgrey;
+  }
+  .rd{
+    display:inline-flex;
+    visibility:hidden;
+    margin-left:2px;
+    margin-right:-20px;
+    margin-left:10px;
+  }
+  .rd:hover{
+    background-color: darkgoldenrod;
+  }
+  input{
+    margin-left:0px;
+  }
